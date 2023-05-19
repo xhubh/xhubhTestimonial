@@ -1,0 +1,67 @@
+@font-face {
+	font-family: 'Engravers MT';
+	src: url('../ENGR.TTF');
+  }
+.test-icon img {
+	border-radius:50% !important ;
+}
+
+.test-meta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.test-icon{
+	width: 77px;
+height: 77px;
+}
+.test-text{
+	padding-left: 30px;
+}
+.test-text h2{
+	font-size: 18px !important;
+	font-weight: 700;
+	font-family: 'Poppins';
+	margin-bottom: 7px !important ;
+}
+.test-text p{
+	font-size: 16px !important;
+	font-weight: 400;
+	font-family: 'Poppins';
+	margin-bottom: 0;
+}
+.testimonial-content{
+	font-size: 16px;
+	font-weight: 400;
+	text-align: center;
+	display: -webkit-box;
+	overflow: hidden;
+	-webkit-line-clamp: 5;
+	-webkit-box-orient: vertical;
+	margin-bottom: 86px;
+}
+.test-container{
+background-color: #fff;
+border-radius: 25px;
+padding: 46px 30px;
+margin: 40px 15px;
+box-shadow: 0px 15px 45px #0000000D;
+}
+.test-container{
+	position: relative;
+}
+.qoute{
+	font-size: 121px;
+	font-family: "Engravers MT";
+	color:#F66114;
+	position: absolute;
+	top:-120px;
+	left: 10px;
+	transform: rotate(180deg);
+}
+.slick-prev:before, .slick-next:before {
+	color:#F66114 !important;
+}
+@media(max-width:480px){
+	
+}
